@@ -23,7 +23,7 @@
 
 [Click this statement to view the UML class diagram showing the above Students Attendance System in Lucid Chart](https://lucid.app/lucidchart/554ccfad-db86-4b76-8630-74a91ea89596/edit?view_items=gpPJDqJcj678&invitationId=inv_96219b0c-ecb8-4435-bd66-f74b06de7813)
 
-Below is an example of what the above UML class diagram looks like in a plain text.
+Below is an example of what the above UML class diagram looks like in plain text.
 
 ```bash
 
