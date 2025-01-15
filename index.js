@@ -34,6 +34,7 @@ class AttendanceSystem {
   addStudent(student) {
     // Register a student to the database
     this.students.push(student);
+    console.log("Student " + student.name + " successfully added");
   }
 
   markAttendance(studentId, date, status) {
@@ -58,6 +59,8 @@ class AttendanceSystem {
     if (student) {
       console.log(student.name);
       console.log(student.getAttendance());
+    } else {
+      console.log("Student with id " + studentId + " doesn't exist");
     }
   }
 
@@ -66,4 +69,56 @@ class AttendanceSystem {
   }
 }
 
+/*------- SOME SCENARIOS TO TEST THE SYSTEM OUTPUT --------- */
 
+/*
+// Create students using the Student class
+
+const student1 = new Student(1, "Favour Okpara");
+
+const student2 = new Student(2, "Ezinne Edmund");
+
+// Register / add students to the Attendance system
+const attend = new AttendanceSystem();
+
+attend.addStudent(student1);
+attend.addStudent(student2);
+
+// View the attendace system data base
+console.log(attend.students);
+
+// Mark attendance for student1
+attend.markAttendance(1, "10/10/2024", "Present" )
+attend.markAttendance(1, "11/10/2024", "Absent")
+attend.markAttendance(1, "12/10/2024", "Present")
+attend.markAttendance(1, "13/10/2024", "Absent")
+attend.markAttendance(1, "14/10/2024", "Present")
+
+// Mark attendance for student2
+attend.markAttendance(2, "10/10/2024", "Absent")
+attend.markAttendance(2, "11/10/2024", "Present")
+attend.markAttendance(2, "12/10/2024", "Absent")
+attend.markAttendance(2, "13/10/2024", "Absent")
+attend.markAttendance(2, "14/10/2024", "Present")
+
+//  View the students attendance
+
+attend.getStudentAttendance(1) // Favour Okpara
+attend.getStudentAttendance(2) // Ezinne Edmund
+
+// If the student doesnt exist
+attend.getStudentAttendance(3) //Student with this id doesnt exist
+
+*/
+
+// Create students using the Student class
+
+const student1 = new Student(1, "Favour Okpara");
+
+const student2 = new Student(2, "Ezinne Edmund");
+
+// Register / add students to the Attendance system
+const attend = new AttendanceSystem();
+
+attend.addStudent(student1);
+attend.addStudent(student2);
