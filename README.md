@@ -2,16 +2,18 @@
 
 ---
 
-## Table of Contents
+## **Table of Contents**
+
 
 1. [Problem Domain Description](#problem-domain-description)
 2. [Class Diagram](#class-diagram)
 3. [Code Implementation](#code-implementation)
 4. [Code Execution output](#code-execution-output)
 
+
 ---
 
-## Problem Domain Description
+## **Problem Domain Description**
 
 **Title** : Students Attendance System
 
@@ -19,7 +21,7 @@
 
 ---
 
-## Class Diagram
+## **Class Diagram**
 
 [Click this statement to view IN LUCID CHART a UML class diagram showing the above Students Attendance System](https://lucid.app/lucidchart/554ccfad-db86-4b76-8630-74a91ea89596/edit?view_items=gpPJDqJcj678&invitationId=inv_96219b0c-ecb8-4435-bd66-f74b06de7813)
 
@@ -29,7 +31,7 @@ Below is an IMAGE of what the above UML class diagram looks like
 
 ---
 
-## Code Implementation
+## **Code Implementation**
 
 The source code file for the Students Attendance System is located in the index.js file of this repo.
 
@@ -53,7 +55,7 @@ The source code file for the Students Attendance System is located in the index.
 
 ---
 
-## Code Execution Output
+## **Code Execution Output**
 
 1. **Creating instances of students from the Student class**
 
