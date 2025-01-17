@@ -15,7 +15,7 @@
 
 **Title** : Students Attendance System
 
-**Description** : The Student Attendance System is designed to efficiently manage and track the attendance of students. It comprises two main classes: Student, which represents individual students with unique IDs, names, and attendance records; and AttendanceSystem, which manages a collection of students and their attendance data. This system allows for adding students, marking their attendance, and retrieving attendance records. Additionally, it includes static attributes and methods to maintain overall student count and system version information.
+**Description** : The Student Attendance System is designed to efficiently manage and track the attendance of students. It comprises of two main classes: Student, which represents individual students with unique IDs, names, and attendance records; and AttendanceSystem, which manages a collection of students and their attendance data. This system allows for adding students, marking their attendance, and retrieving attendance records. Additionally, it includes static attributes and methods to maintain overall student count and system version information.
 
 ---
 
