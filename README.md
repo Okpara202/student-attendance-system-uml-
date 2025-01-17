@@ -21,60 +21,33 @@
 
 ## Class Diagram
 
-[Click this statement to view the UML class diagram showing the above Students Attendance System in Lucid Chart](https://lucid.app/lucidchart/554ccfad-db86-4b76-8630-74a91ea89596/edit?view_items=gpPJDqJcj678&invitationId=inv_96219b0c-ecb8-4435-bd66-f74b06de7813)
+[Click this statement to view IN LUCID CHART a UML class diagram showing the above Students Attendance System](https://lucid.app/lucidchart/554ccfad-db86-4b76-8630-74a91ea89596/edit?view_items=gpPJDqJcj678&invitationId=inv_96219b0c-ecb8-4435-bd66-f74b06de7813)
 
-Below is an example of what the above UML class diagram looks like in plain text.
+Below is an IMAGE of what the above UML class diagram looks like
 
-```bash
-
-Class: Student
- Attributes:
-  __+ totalStudents: int__ (Static)
-  + id: int
-  + name: string
-  + attendance: array[{date: Date, status: string}]
-
-Methods:
-  + markPresent(date: Date): void
-  + markAbsent(date: Date): void
-  + getAttendance(): array
-  __+ getStudentCount(): void__ (Static)
-
-Class: AttendanceSystem
-Attributes:
-  __+ systemVersion: string__ (Static)
-  + students: array[Student]
-
-Methods:
-  + addStudent(student: Student): void
-  + markAttendance(studentId: int, date: Date, status: string): void
-  + getStudentAttendance(studentId: int): void
-  __+ getSystemVersion(): void__ (Static)
-
-
-```
+![UML class diagram showing a Student class and an administrator class](img/UML%20Class%20Diagram.png)
 
 ---
 
 ## Code Implementation
 
-The source code file for this Students Attendance System is located in the index.js of this repo.
+The source code file for the Students Attendance System is located in the index.js file of this repo.
 
 ### **Set Up Steps**
 
 1. Clone this repo
 
-```bash
-git clone https://github.com/Okpara202/student-attendance-system-uml-.git
-```
+   ```bash
+   git clone https://github.com/Okpara202/student-attendance-system-uml-.git
+   ```
 
 2. Navigate to index.js and there you will see the source code
 
 3. Run the source code on your terminal
 
-```bash
-node index.js
-```
+   ```bash
+   node index.js
+   ```
 
 4. You can also run on it on your browser console
 
@@ -101,3 +74,11 @@ node index.js
 5. **Scenario for when the student doesnt exist in our database**
 
    ![Scenario for when the student doesnt exist in our database](img/Wrong%20input.png)
+
+If you would like to see more code execution outputs, navigate to the img file in this repo.
+
+<div style="text-align: center;">
+
+### **THANK YOU**
+
+</div>
