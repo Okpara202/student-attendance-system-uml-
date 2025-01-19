@@ -8,10 +8,12 @@ class Student {
   }
 
   markPresent(date) {
+    // updating students attendace if present
     this.attendance.push({ date, status: "Present" });
   }
 
   markAbsent(date) {
+    // updating students attendace if present
     this.attendance.push({ date, status: "Absent" });
   }
 
@@ -38,7 +40,7 @@ class AttendanceSystem {
   }
 
   markAttendance(studentId, date, status) {
-    // Track the students attendance using id
+    // Record the students attendance using id
     const student = this.students.find((student) => student.id === studentId);
 
     if (student) {

@@ -23,7 +23,7 @@
 
 ## **Class Diagram**
 
-[Click this statement to view IN LUCID CHART a UML class diagram showing the above Students Attendance System](https://lucid.app/lucidchart/554ccfad-db86-4b76-8630-74a91ea89596/edit?view_items=gpPJDqJcj678&invitationId=inv_96219b0c-ecb8-4435-bd66-f74b06de7813)
+[Click this statement to view IN LUCID CHART a UML class diagram showing the Students Attendance System](https://lucid.app/lucidchart/554ccfad-db86-4b76-8630-74a91ea89596/edit?view_items=gpPJDqJcj678&invitationId=inv_96219b0c-ecb8-4435-bd66-f74b06de7813)
 
 Below is an IMAGE of what the above UML class diagram looks like
 
@@ -51,7 +51,7 @@ The source code file for the Students Attendance System is located in the index.
    node index.js
    ```
 
-4. You can also run on it on your browser console
+4. You can also run it on your browser console
 
 ---
 
